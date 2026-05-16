@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <title>Profile Card</title>
+</head>
+
+<body class="flex justify-center items-center bg-green-400 min-h-screen">
+
+    <!-- Card -->
+    <div class="flex flex-col justify-between items-center bg-green-50 w-[330px] h-[620px] rounded-2xl shadow-2xl p-4">
+
+        <!-- Parte superior -->
+        <div class="flex flex-col items-center bg-emerald-400 w-full h-[250px] rounded-2xl -mt-10 pt-6 shadow-xl">
+
+            <!-- Imagen -->
+            <div class="flex justify-center items-center rounded-full bg-white w-[150px] h-[150px]">
+
+                <img src="icono.png" alt=""
+                    class="w-[100px] h-[100px]">
+
+            </div>
+
+            <!-- Nombre -->
+            <h1 class="text-white text-4xl font-bold mt-4">
+                John Doe
+            </h1>
+
+            <!-- Profesión -->
+            <p class="text-green-100 text-lg">
+                Mobile App Developer
+            </p>
+
+        </div>
+
+        <!-- Información -->
+        <div class="flex flex-col gap-7 w-full px-4">
+
+            <!-- Teléfono -->
+            <div class="flex items-center gap-5">
+
+                <i class="fa-solid fa-mobile-screen text-4xl text-emerald-500"></i>
+
+                <div>
+                    <h2 class="text-emerald-500 text-2xl font-bold">
+                        5-555-666-777
+                    </h2>
+
+                    <p class="text-gray-500">
+                        Mobile Number
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Correo -->
+            <div class="flex items-center gap-5">
+
+                <i class="fa-solid fa-envelope text-4xl text-emerald-500"></i>
+
+                <div>
+                    <h2 class="text-emerald-500 text-2xl font-bold">
+                        example@gmail.com
+                    </h2>
+
+                    <p class="text-gray-500">
+                        Email Address
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Web -->
+            <div class="flex items-center gap-5">
+
+                <i class="fa-solid fa-earth-americas text-4xl text-emerald-500"></i>
+
+                <div>
+                    <h2 class="text-emerald-500 text-2xl font-bold">
+                        www.example.com
+                    </h2>
+
+                    <p class="text-gray-500">
+                        Website Address
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Parte inferior -->
+        <div class="flex justify-around items-center bg-emerald-400 w-full h-[90px] rounded-2xl shadow-xl">
+
+            <i class="fa-brands fa-facebook-f text-4xl text-white"></i>
+
+            <i class="fa-brands fa-twitter text-4xl text-white"></i>
+
+            <i class="fa-brands fa-instagram text-4xl text-white"></i>
+
+            <i class="fa-brands fa-linkedin-in text-4xl text-white"></i>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
