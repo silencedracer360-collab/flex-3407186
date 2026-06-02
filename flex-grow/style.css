@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkseagreen;
+}
+
+.flex_container{
+    display: flex;
+    width: 1000px;
+    height: 50%;
+    border: black solid 5px;
+}
+.flex-item{
+    border: dashed black 1px;
+    width: 200px;
+    height: 200px;
+}
+
+.item1{
+    background-color: antiquewhite;
+    flex-grow: 0.5;
+}
+
+.item2{
+    background-color: aquamarine;
+    flex-grow: 2.5;
+}
+
+.item3{
+    background-color: cadetblue;
+    flex-grow: 3;
+}
+
+.item4{
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+
